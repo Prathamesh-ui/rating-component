@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+}
+.container{
+    background-color: hsl(216, 12%, 8%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 24rem;
+    border-radius: 30px;
+    background-color: hsl(214, 25%, 11%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    margin: 5%;
+}
+
+.star{
+    background-color: hsl(213, 24%, 15%);
+    display: inline;
+    margin: 5% 7%;
+    padding: 15px 15px;
+    border-radius: 50px;
+    
+}
+
+.heading{
+    font-weight: 700;
+    margin: 0% 0% 5% 7%;
+}
+
+.para{
+    font-weight: 400;
+    font-size: 15px;
+    color:hsl(217, 12%, 63%);
+    margin: 3% 7%;
+}                                                                            
+
+li{
+    color:hsl(217, 12%, 63%);
+    list-style: none;
+    background-color: hsl(213, 24%, 15%);
+    padding: 15px 21px;
+    margin: 2% 2.5%;    
+    border-radius: 100px;
+    cursor: pointer;
+}          
+
+li:hover{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+}
+
+
+ul{
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    padding: 15px 0px;
+}
+
+.btn{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    margin: 7% auto;
+    padding: 3%;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 30px;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+.after{
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+.thank{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10%;
+}
+
+#select{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    padding: 1%;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 24%, 15%);
+    border-radius: 20px;
+}
+
+#select p{
+    padding: 0;
+    margin: 0;
+}
+
+.thankU{
+    text-align: center;
+    margin: 9%;
+    margin-bottom: 0%;
+}
+
+.thankPara{
+    text-align: center;
+    padding: 0% 5%;
+    margin-bottom: 10%;
+    font-size: 15px;
+    color:hsl(217, 12%, 63%);
+}
+
+a{
+    text-decoration: none;
+}
+
+.hide{
+    display: none;
+}
